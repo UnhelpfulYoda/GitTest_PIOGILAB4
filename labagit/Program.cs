@@ -6,7 +6,8 @@ namespace labagit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("Вводи число А ");
+            double A = Convert.ToDouble(Console.ReadLine());
         }
     }
 }
