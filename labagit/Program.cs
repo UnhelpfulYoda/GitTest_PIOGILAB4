@@ -6,7 +6,9 @@ namespace labagit
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            double res3 = A * B;
+
+            Console.WriteLine("Результат умножения А и В - " + Convert.ToString(res3));
         }
     }
 }
